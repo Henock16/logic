@@ -1,0 +1,45 @@
+.sidenav {
+	border: solid 1px #D2D6DE;
+    height: 200px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 15px;
+}
+
+.sidenav a .line {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover .line:hover {
+    color: #111;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+#waitingBundle{
+    top: 60px;
+}
+
+#waitingSlip{
+    top: 280px;
+}
+
+#blockedBundle{
+    top: 500px;
+}
